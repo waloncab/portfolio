@@ -1,7 +1,14 @@
 
   .content {
-    max-width: 900px;
+    max-width: 925px;
     margin: auto;
+  }
+
+  .child {
+    margin: 0 auto;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .header {
@@ -14,9 +21,6 @@
     border: 2px solid rgb(255, 0, 179);
     border-radius: 5px;
   }
-
-
-
 
   .rotate {
     animation: rotation 8s infinite linear;
@@ -31,8 +35,6 @@
     }
   }
   
-  
-
   h2 {
     background-color: rgb(255, 235, 80);
     padding: 5px;
