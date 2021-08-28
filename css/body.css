@@ -1,0 +1,49 @@
+
+  .content {
+    max-width: 925px;
+    margin: auto;
+  }
+
+  .child {
+    margin: 0 auto;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: rgb(255, 255, 255);;
+    font-size: 20px;
+
+    border: 2px solid rgb(255, 0, 179);
+    border-radius: 5px;
+  }
+
+  .rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+  h2 {
+    background-color: rgb(255, 235, 80);
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
